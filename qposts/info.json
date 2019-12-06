@@ -16,7 +16,9 @@
     "name" : "QPosts",
     "permissions" : [],
     "required_cogs" : [],
-    "requirements" : [bs4],
+    "requirements" : [
+        "bs4"
+    ],
     "short" : "",
     "tags" : [],
     "type" : "COG"

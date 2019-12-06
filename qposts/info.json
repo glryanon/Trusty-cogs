@@ -3,8 +3,8 @@
         "TrustyJAID"
     ],
     "description" : "Gatehr Qanon posts from 8chan",
-    "disabled" : true,
-    "hidden" : true,
+    "disabled" : false,
+    "hidden" : false,
     "install_msg" : "This cog will create a folder and save some files locally. Do `[p]qchannel` to setup a channel for new posts.",
     "max_bot_version" : "0.0.0",
     "min_bot_version" : "3.0.0",
@@ -16,7 +16,7 @@
     "name" : "QPosts",
     "permissions" : [],
     "required_cogs" : [],
-    "requirements" : [],
+    "requirements" : [bs4],
     "short" : "",
     "tags" : [],
     "type" : "COG"
